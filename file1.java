@@ -14,11 +14,20 @@ public class AdditionProgram {
 
         // Perform the addition
         double sum = num1 + num2;
+
         // Perform the subtraction
         double difference = num1 - num2;
         // Display the result
         System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
         System.out.println("The difference of " + num1 + " and " + num2 + " is: " + difference);
+
+        
+        // Perform the multiplication
+        double product = num1 * num2;
+
+        // Display the result
+        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+        System.out.println("The product of " + num1 + " and " + num2 + " is: " + product);
         // Close the scanner
         scanner.close();
     }
